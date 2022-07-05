@@ -27,9 +27,72 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
+
 body{
     position: relative;
-    width: 375px;
-    height: 667px;
-    background: var(--fondo-verde);
+    width: 37.5rem;
+    height: 66.7rem;
+    background: var(--verde-menta);
+}
+
+
+div.header--title{
+    background: var(--morado-oscuro);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 11rem;
+
+}
+.header--title h1{
+    width: 32rem;
+    height: 6rem;
+    left: 3rem;
+    top: 2.5rem;
+
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: var(--blanco);
+}
+
+div.header--navegacion{
+    background-color: var(--violeta-pastel);
+    width: 100%;
+    height: 7rem;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+li.header--nav-button{
+    background-color: var(--verde-acua);
+    width: 80px;
+    height: 49px;
+    left: 10px;
+    top: 121px;
+
+    display: inline-block;
+    align-items: center;
+
+    margin: 0.5rem;
+    border-radius: 1.2rem;
+}
+
+.header--nav-button a{
+    color: var(--negro);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
