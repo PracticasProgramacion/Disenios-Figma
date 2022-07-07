@@ -35,6 +35,11 @@ body{
     background: var(--verde-menta);
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
 
 div.header--title{
     background: var(--morado-oscuro);
@@ -44,7 +49,6 @@ div.header--title{
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 100%;
     min-width: 320px;
     height: 11rem;
 
@@ -64,7 +68,6 @@ div.header--title{
 
 div.header--navegacion{
     background-color: var(--violeta-pastel);
-    width: 100%;
     height: 7rem;
 
     position: relative;
@@ -83,7 +86,7 @@ li.header--nav-button{
 .header--nav-button a{
     color: var(--negro);
     background-color: var(--verde-acua);
-    padding: 20px 10px 20px 10px;
+    padding: 2rem 1rem 2rem 1rem;
 
     border-radius: 1.2rem;
     margin: 0.5rem;
