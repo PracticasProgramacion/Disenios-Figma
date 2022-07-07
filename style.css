@@ -73,26 +73,23 @@ div.header--navegacion{
     align-items: center;
     flex-direction: column;
     align-content: center;
+    text-align: center;
 }
 
 li.header--nav-button{
-    background-color: var(--verde-acua);
-    width: 80px;
-    height: 49px;
-    left: 10px;
-    top: 121px;
-
     display: inline-block;
-    align-items: center;
-
-    margin: 0.5rem;
-    border-radius: 1.2rem;
 }
 
 .header--nav-button a{
     color: var(--negro);
+    background-color: var(--verde-acua);
+    padding: 20px 10px 20px 10px;
 
-    display: flex;
+    border-radius: 1.2rem;
+    margin: 0.5rem;
+
     justify-content: center;
     align-items: center;
+    align-content: center;
+    text-align: center;
 }
