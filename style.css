@@ -31,8 +31,8 @@ html{
 
 body{
     position: relative;
-    width: 375px;
-    height: 667px;
+    /* width: 375px;
+    height: 667px; */
     background: var(--verde-menta);
 }
 
@@ -104,22 +104,25 @@ li.header--nav-button{
 }
 
 footer {
-    position: fixed;
+    position: relative;
     display: flex;
     flex-direction: column;
    /*  justify-content: center; */
     align-content: center;
     align-items: center;
+    text-align: center;
+
     width: 100%;
     height: 130px;
     background:var(--morado-sesamo);
     top: 537px;
 }
 .textFooter{
-   position: absolute; 
+   position: relative;
    font-weight: 400;
-   font-size: 1.6rem; 
+   font-size: 1.6rem;
    color: var(--blanco);
-   margin-top: 16px ;
+   margin-top: 14px;
+   margin-bottom: 7px;
 
 }
