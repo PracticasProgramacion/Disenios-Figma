@@ -42,7 +42,7 @@ header{
     z-index: 10;
 }
 
-div.header--title{
+/* div */.header--title{
     background: var(--morado-oscuro);
     position: relative;
     display: flex;
@@ -67,7 +67,7 @@ div.header--title{
     color: var(--blanco);
 }
 
-div.header--navegacion{
+/* div */.header--navegacion{
     background-color: var(--violeta-pastel);
     height: 7rem;
 
@@ -99,6 +99,28 @@ li.header--nav-button{
     text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 .header--nav-button a:hover{
     color: rgb(12, 59, 245);
+=======
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   /*  justify-content: center; */
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    background:var(--morado-sesamo);
+    top: 537px;
+}
+.textFooter{
+   position: absolute; 
+   font-weight: 400;
+   font-size: 1.6rem; 
+   color: var(--blanco);
+   margin-top: 16px ;
+
+>>>>>>> Stashed changes
 }
