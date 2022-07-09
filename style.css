@@ -99,10 +99,10 @@ li.header--nav-button{
     text-decoration: none;
 }
 
-<<<<<<< Updated upstream
 .header--nav-button a:hover{
     color: rgb(12, 59, 245);
-=======
+}
+
 footer {
     position: relative;
     display: flex;
@@ -122,5 +122,4 @@ footer {
    color: var(--blanco);
    margin-top: 16px ;
 
->>>>>>> Stashed changes
 }
